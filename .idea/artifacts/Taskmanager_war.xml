@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Taskmanager:war">
+    <output-path>$PROJECT_DIR$/Taskmanager/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Taskmanager</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Taskmanager.war">
+      <element id="artifact" artifact-name="Taskmanager:war exploded" />
+    </root>
+  </artifact>
+</component>
